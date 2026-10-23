@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>良友科技资讯订阅库</title><ownerName>良哥看未来</ownerName></head>
+  <body>
+    <outline text="播放器与影音科技" title="播放器与影音科技">
+      <outline type="rss" text="Ars Technica — Tech" title="Ars Technica — Tech" xmlUrl="https://arstechnica.com/feed/" htmlUrl="https://arstechnica.com/"/>
+      <outline type="rss" text="Jellyfin Blog" title="Jellyfin Blog" xmlUrl="https://jellyfin.org/posts/index.xml" htmlUrl="https://jellyfin.org/posts/"/>
+    </outline>
+  </body>
+</opml>

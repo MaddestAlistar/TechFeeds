@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>良友科技资讯订阅库</title><ownerName>良哥看未来</ownerName></head>
+  <body>
+    <outline text="苹果生态" title="苹果生态">
+      <outline type="rss" text="Apple Developer News" title="Apple Developer News" xmlUrl="https://developer.apple.com/news/rss/news.rss" htmlUrl="https://developer.apple.com/news/"/>
+      <outline type="rss" text="9to5Mac" title="9to5Mac" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/"/>
+      <outline type="rss" text="MacRumors" title="MacRumors" xmlUrl="https://www.macrumors.com/macrumors.xml" htmlUrl="https://www.macrumors.com/"/>
+    </outline>
+    <outline text="NAS 与自建服务" title="NAS 与自建服务">
+      <outline type="rss" text="ServeTheHome" title="ServeTheHome" xmlUrl="https://www.servethehome.com/feed/" htmlUrl="https://www.servethehome.com/"/>
+      <outline type="rss" text="CNX Software" title="CNX Software" xmlUrl="https://www.cnx-software.com/feed/" htmlUrl="https://www.cnx-software.com/"/>
+      <outline type="rss" text="Tailscale Blog" title="Tailscale Blog" xmlUrl="https://tailscale.com/blog/index.xml" htmlUrl="https://tailscale.com/blog"/>
+    </outline>
+    <outline text="播放器与影音科技" title="播放器与影音科技">
+      <outline type="rss" text="Ars Technica — Tech" title="Ars Technica — Tech" xmlUrl="https://arstechnica.com/feed/" htmlUrl="https://arstechnica.com/"/>
+      <outline type="rss" text="Jellyfin Blog" title="Jellyfin Blog" xmlUrl="https://jellyfin.org/posts/index.xml" htmlUrl="https://jellyfin.org/posts/"/>
+    </outline>
+    <outline text="独立开发与科技" title="独立开发与科技">
+      <outline type="rss" text="GitHub Blog" title="GitHub Blog" xmlUrl="https://github.blog/feed/" htmlUrl="https://github.blog/"/>
+      <outline type="rss" text="TechCrunch" title="TechCrunch" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
+      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/"/>
+    </outline>
+  </body>
+</opml>

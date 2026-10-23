@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "checked_date": "2026-10-23",
+  "description": "公开科技 RSS/Atom URL 目录；不保证实时连通",
+  "groups": {
+    "apple": "苹果生态",
+    "nas": "NAS 与自建服务",
+    "players": "播放器与影音科技",
+    "indie": "独立开发与科技"
+  },
+  "feeds": [
+    {
+      "category": "apple",
+      "title": "Apple Developer News",
+      "xmlUrl": "https://developer.apple.com/news/rss/news.rss",
+      "htmlUrl": "https://developer.apple.com/news/"
+    },
+    {
+      "category": "apple",
+      "title": "9to5Mac",
+      "xmlUrl": "https://9to5mac.com/feed/",
+      "htmlUrl": "https://9to5mac.com/"
+    },
+    {
+      "category": "apple",
+      "title": "MacRumors",
+      "xmlUrl": "https://www.macrumors.com/macrumors.xml",
+      "htmlUrl": "https://www.macrumors.com/"
+    },
+    {
+      "category": "nas",
+      "title": "ServeTheHome",
+      "xmlUrl": "https://www.servethehome.com/feed/",
+      "htmlUrl": "https://www.servethehome.com/"
+    },
+    {
+      "category": "nas",
+      "title": "CNX Software",
+      "xmlUrl": "https://www.cnx-software.com/feed/",
+      "htmlUrl": "https://www.cnx-software.com/"
+    },
+    {
+      "category": "nas",
+      "title": "Tailscale Blog",
+      "xmlUrl": "https://tailscale.com/blog/index.xml",
+      "htmlUrl": "https://tailscale.com/blog"
+    },
+    {
+      "category": "players",
+      "title": "Ars Technica — Tech",
+      "xmlUrl": "https://arstechnica.com/feed/",
+      "htmlUrl": "https://arstechnica.com/"
+    },
+    {
+      "category": "players",
+      "title": "Jellyfin Blog",
+      "xmlUrl": "https://jellyfin.org/posts/index.xml",
+      "htmlUrl": "https://jellyfin.org/posts/"
+    },
+    {
+      "category": "indie",
+      "title": "GitHub Blog",
+      "xmlUrl": "https://github.blog/feed/",
+      "htmlUrl": "https://github.blog/"
+    },
+    {
+      "category": "indie",
+      "title": "TechCrunch",
+      "xmlUrl": "https://techcrunch.com/feed/",
+      "htmlUrl": "https://techcrunch.com/"
+    },
+    {
+      "category": "indie",
+      "title": "Hacker News",
+      "xmlUrl": "https://hnrss.org/frontpage",
+      "htmlUrl": "https://news.ycombinator.com/"
+    }
+  ]
+}

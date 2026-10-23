@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>良友科技资讯订阅库</title><ownerName>良哥看未来</ownerName></head>
+  <body>
+    <outline text="苹果生态" title="苹果生态">
+      <outline type="rss" text="Apple Developer News" title="Apple Developer News" xmlUrl="https://developer.apple.com/news/rss/news.rss" htmlUrl="https://developer.apple.com/news/"/>
+      <outline type="rss" text="9to5Mac" title="9to5Mac" xmlUrl="https://9to5mac.com/feed/" htmlUrl="https://9to5mac.com/"/>
+      <outline type="rss" text="MacRumors" title="MacRumors" xmlUrl="https://www.macrumors.com/macrumors.xml" htmlUrl="https://www.macrumors.com/"/>
+    </outline>
+  </body>
+</opml>
