@@ -4,6 +4,12 @@
 
 按 **苹果生态 / NAS 与自建服务 / 播放器影音 / 独立开发** 分类，收集公开的 RSS/Atom 资讯源，并导出能被主流阅读器导入的 **OPML 2.0**。
 
+## JSON 资源入口
+
+**[复制/获取统一 JSON 订阅目录](https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/index.json)**
+
+JSON 目录收录 11 个 RSS/Atom 地址及 5 份 OPML 文件的直接 URL；它可以作为订阅源集合的机器可读索引。**RSS 阅读器要真正导入订阅，仍推荐使用 `opml/all.opml`，不是所有阅读器都能直接导入 JSON。**
+
 ## 一键导入
 
 - **[完整订阅清单（OPML）](https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/all.opml)** — 11 个来源。

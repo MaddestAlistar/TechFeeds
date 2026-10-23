@@ -1,0 +1,118 @@
+{
+  "schema": "liangyou.resource-lab/1.0",
+  "id": "TechFeeds",
+  "title": "良友科技资讯订阅库",
+  "updated": "2026-10-23",
+  "resourceType": "rss-atom-opml",
+  "importType": "json-index-opml-compatible-feeds",
+  "repository": "https://github.com/MaddestAlistar/TechFeeds",
+  "count": 11,
+  "feedList": [
+    {
+      "category": "apple",
+      "title": "Apple Developer News",
+      "feedUrl": "https://developer.apple.com/news/rss/news.rss",
+      "siteUrl": "https://developer.apple.com/news/"
+    },
+    {
+      "category": "apple",
+      "title": "9to5Mac",
+      "feedUrl": "https://9to5mac.com/feed/",
+      "siteUrl": "https://9to5mac.com/"
+    },
+    {
+      "category": "apple",
+      "title": "MacRumors",
+      "feedUrl": "https://www.macrumors.com/macrumors.xml",
+      "siteUrl": "https://www.macrumors.com/"
+    },
+    {
+      "category": "nas",
+      "title": "ServeTheHome",
+      "feedUrl": "https://www.servethehome.com/feed/",
+      "siteUrl": "https://www.servethehome.com/"
+    },
+    {
+      "category": "nas",
+      "title": "CNX Software",
+      "feedUrl": "https://www.cnx-software.com/feed/",
+      "siteUrl": "https://www.cnx-software.com/"
+    },
+    {
+      "category": "nas",
+      "title": "Tailscale Blog",
+      "feedUrl": "https://tailscale.com/blog/index.xml",
+      "siteUrl": "https://tailscale.com/blog"
+    },
+    {
+      "category": "players",
+      "title": "Ars Technica — Tech",
+      "feedUrl": "https://arstechnica.com/feed/",
+      "siteUrl": "https://arstechnica.com/"
+    },
+    {
+      "category": "players",
+      "title": "Jellyfin Blog",
+      "feedUrl": "https://jellyfin.org/posts/index.xml",
+      "siteUrl": "https://jellyfin.org/posts/"
+    },
+    {
+      "category": "indie",
+      "title": "GitHub Blog",
+      "feedUrl": "https://github.blog/feed/",
+      "siteUrl": "https://github.blog/"
+    },
+    {
+      "category": "indie",
+      "title": "TechCrunch",
+      "feedUrl": "https://techcrunch.com/feed/",
+      "siteUrl": "https://techcrunch.com/"
+    },
+    {
+      "category": "indie",
+      "title": "Hacker News",
+      "feedUrl": "https://hnrss.org/frontpage",
+      "siteUrl": "https://news.ycombinator.com/"
+    }
+  ],
+  "categories": [
+    {
+      "id": "apple",
+      "name": "苹果生态",
+      "opml": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/apple.opml",
+      "feedCount": 3
+    },
+    {
+      "id": "nas",
+      "name": "NAS 与自建服务",
+      "opml": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/nas.opml",
+      "feedCount": 3
+    },
+    {
+      "id": "players",
+      "name": "播放器与影音科技",
+      "opml": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/players.opml",
+      "feedCount": 2
+    },
+    {
+      "id": "indie",
+      "name": "独立开发与科技",
+      "opml": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/indie.opml",
+      "feedCount": 3
+    }
+  ],
+  "resources": {
+    "opmlAll": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/all.opml",
+    "feedsJSON": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/feeds.json",
+    "opmlByCategory": {
+      "apple": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/apple.opml",
+      "nas": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/nas.opml",
+      "players": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/players.opml",
+      "indie": "https://raw.githubusercontent.com/MaddestAlistar/TechFeeds/main/opml/indie.opml"
+    }
+  },
+  "notes": [
+    "JSON 便于聚合，RSS 阅读器通常应导入 OPML 文件",
+    "尚未持续在线检查所有来源的连通性"
+  ]
+}
