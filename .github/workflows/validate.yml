@@ -1,0 +1,26 @@
+name: Validate OPML feeds
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python scripts/build_opml.py
+      - name: Parse all OPML bundles
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          from urllib.parse import urlparse
+          paths = sorted(Path('opml').glob('*.opml'))
+          assert len(paths) == 5
+          for f in paths:
+              root = ET.parse(f).getroot()
+              assert root.tag == 'opml' and root.attrib.get('version') == '2.0'
+              for o in root.iter('outline'):
+                  if 'xmlUrl' in o.attrib:
+                      assert urlparse(o.attrib['xmlUrl']).scheme == 'https'
+          print('PASS:', len(paths), 'OPML bundles')
+          PY
